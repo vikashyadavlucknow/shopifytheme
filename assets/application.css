@@ -587,6 +587,16 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -625,6 +635,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-6 {
@@ -783,12 +797,21 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-3 {
   padding-bottom: 0.75rem;
 }
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-xl {
